@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Roboto': ['sans-serif'],
+        'Readex-Pro': ['sans-serif']
+      }
+    },
   },
   plugins: [require('prettier-plugin-tailwindcss')],
 }
