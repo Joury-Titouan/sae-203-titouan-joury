@@ -7,7 +7,7 @@ import TheWelcome from "@/components/TheWelcome.vue";
     <p class="font-Roboto font-bold text-white text-2xl">17 - 18 JUIN 2022</p>
   </div>
 
-  <div class="grid grid-cols-3">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
     <div class="bg-indigo-300 grid justify-center py-8">
       <img class="pb-2" src="/public/Hangar.jpg" alt="Hangar" />
       <div class="grid grid-cols-2">
@@ -22,7 +22,7 @@ import TheWelcome from "@/components/TheWelcome.vue";
             rounded
             text-white
             border-white
-            hover:text-indigo-300 hover:border-indigo-300
+            hover:text-black hover:border-black
           "
         >
           <p class="grid justify-center font-Readex-Pro text-base">
@@ -68,7 +68,7 @@ import TheWelcome from "@/components/TheWelcome.vue";
             rounded
             text-white
             border-white
-            hover:text-indigo-300 hover:border-indigo-300
+            hover:text-black hover:border-black
           "
         >
           <p class="grid justify-center font-Readex-Pro text-base">

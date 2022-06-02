@@ -7,13 +7,13 @@ import HelloWorld from "@/components/HelloWorld.vue";
   <header>
     <nav class="flex items-center justify-between flex-wrap bg-gray-800 px-8">
       <div class="flex items-center flex-no-shrink text-white mr-6">
-        <Routerlink to="/Home">
+        <RouterLink to="/">
           <img
             class="w-32 h-32"
             src="/public/LogoHangar.svg"
             alt="Logo Hangar"
           />
-        </Routerlink>
+        </RouterLink>
       </div>
       <div class="block lg:hidden">
         <button
@@ -39,7 +39,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
           </svg>
         </button>
       </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="w-full flex-grow hidden lg:flex lg:items-center lg:w-auto">
         <div class="text-lg font-Readex-Pro lg:flex-grow">
           <RouterLink
             to="/GuideView"
@@ -110,7 +110,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
               mt-4
               lg:mt-0
             "
-            >Réserver</a
+            >Billetterie</a
           >
         </div>
       </div>
@@ -119,7 +119,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
   <RouterView />
 
-  <footer class="bg-gray-800 grid grid-cols-1 sm:grid-cols-3 bottom-0 py-8">
+  <footer
+    class="bg-gray-800 grid grid-cols-1 sm:grid-cols-3 bottom-0 py-8 mt-12"
+  >
     <!-- CONTACT -->
 
     <div class="grid pb-8">
