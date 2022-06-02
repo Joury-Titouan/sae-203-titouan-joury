@@ -1,7 +1,3 @@
-<script setup>
-import TheWelcome from "@/components/TheWelcome.vue";
-</script>
-
 <template>
   <div class="grid justify-center py-8">
     <p class="font-Roboto font-bold text-white text-2xl">17 - 18 JUIN 2022</p>

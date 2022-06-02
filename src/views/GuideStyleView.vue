@@ -5,6 +5,8 @@
     </h2>
   </div>
 
+  <!-- TEXTES -->
+
   <div class="grid justify-items-center pb-8">
     <h2 class="text-6xl font-Roboto text-white">Textes</h2>
     <p class="text-4xl font-Roboto">Texte Titre : Roboto 4xl</p>
@@ -13,16 +15,37 @@
     <p class="text-sm font-Readex-Pro">Texte Footer Body: Readex Pro sm</p>
   </div>
 
+  <!-- COLORS -->
+
   <hr class="pt-8" />
 
-  <div class="grid justify-items-center">
-    <h2 class="text-6xl font-Roboto text-white">Backgrounds</h2>
+  <div class="grid justify-items-center pb-8">
+    <h2 class="text-6xl font-Roboto text-white">Couleurs</h2>
     <div class="flex mt-4 justify-center items-center">
       <div class="m-4 w-20 h-20 bg-black rounded-xl"></div>
       <div class="m-4 w-20 h-20 bg-indigo-300 rounded-xl"></div>
+      <div class="m-4 w-20 h-20 bg-gray-800 rounded-xl"></div>
+    </div>
+  </div>
+
+  <hr class="pt-8" />
+
+  <div class="grid justify-items-center">
+    <h2 class="text-6xl font-Roboto text-white">Cards Artistes</h2>
+    <div class="flex mt-4 pb-8 justify-center items-center">
+      <CardKekra></CardKekra>
     </div>
   </div>
 </template>
 
 <style>
 </style>
+
+<script>
+import CardKekra from "../components/CardKekra.vue";
+export default {
+  components: {
+    CardKekra,
+  },
+};
+</script>

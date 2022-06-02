@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        "251": "251px"
+      },
       fontFamily: {
         'Roboto': ['sans-serif'],
         'Readex-Pro': ['sans-serif']

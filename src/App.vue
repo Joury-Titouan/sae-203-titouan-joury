@@ -5,12 +5,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 <template>
   <header>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-800">
+    <nav class="flex items-center justify-between flex-wrap bg-gray-800 px-8">
       <div class="flex items-center flex-no-shrink text-white mr-6">
-        <Routerlink to="/">
+        <Routerlink to="/Home">
           <img
-            class="w-60 h-60"
-            src="../public/Logo Hangar.svg"
+            class="w-32 h-32"
+            src="/public/LogoHangar.svg"
             alt="Logo Hangar"
           />
         </Routerlink>
@@ -47,8 +47,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-neutral-300
-              hover:text-white
+              text-white
+              hover:text-indigo-300
               mr-4
             "
           >
@@ -60,38 +60,38 @@ import HelloWorld from "@/components/HelloWorld.vue";
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-neutral-300
-              hover:text-white
+              text-white
+              hover:text-indigo-300
               mr-4
             "
           >
             Le Hangar
           </a>
-          <a
-            href="#responsive-header"
+          <RouterLink
+            to="/ArtistesView"
             class="
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-neutral-300
-              hover:text-white
+              text-white
+              hover:text-indigo-300
               mr-4
             "
           >
             Les Artistes
-          </a>
-          <a
-            href="#responsive-header"
+          </RouterLink>
+          <RouterLink
+            to="/ProgView"
             class="
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-neutral-300
-              hover:text-white
+              text-white
+              hover:text-indigo-300
             "
           >
             La Programmation
-          </a>
+          </RouterLink>
         </div>
         <div>
           <a
@@ -102,11 +102,11 @@ import HelloWorld from "@/components/HelloWorld.vue";
               px-4
               py-2
               leading-none
-              border
+              border-2
               rounded
               text-white
               border-white
-              hover:border-transparent hover:text-neutral-200 hover:bg-white
+              hover:border-white hover:text-white hover:bg-indigo-300
               mt-4
               lg:mt-0
             "
@@ -119,16 +119,23 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
   <RouterView />
 
-  <footer class="bg-gray-800 grid grid-cols-3 bottom-0 py-8">
-    <div class="grid">
-      <h4 class="grid justify-center font-Readex-Pro text-xl pb-4">
+  <footer class="bg-gray-800 grid grid-cols-1 sm:grid-cols-3 bottom-0 py-8">
+    <!-- CONTACT -->
+
+    <div class="grid pb-8">
+      <h4 class="grid justify-center font-Readex-Pro font-bold text-xl pb-4">
         Nous contacter
       </h4>
       <p class="grid justify-center text-sm">titouan.joury@gmail.com</p>
       <p class="grid justify-center text-sm">07 81 68 14 03</p>
     </div>
-    <div class="grid justify-center">
-      <h4 class="text-center text-xl pb-4">Nous retrouver sur</h4>
+
+    <!-- RESEAUX -->
+
+    <div class="grid justify-center pb-8">
+      <h4 class="text-center font-bold font-Readex-Pro text-xl pb-4">
+        Nous retrouver sur
+      </h4>
       <div class="grid grid-cols-3 justify-items-center">
         <img src="../public/icons8-facebook 1.svg" alt="Facebook" />
         <img src="../public/icons8-twitter 1.svg" alt="Twitter" />
@@ -136,8 +143,10 @@ import HelloWorld from "@/components/HelloWorld.vue";
       </div>
     </div>
 
-    <div class="grid">
-      <h4 class="grid justify-center font-Readex-Pro text-xl pb-4">
+    <!-- MENTIONS LEGALES -->
+
+    <div class="grid pb-8">
+      <h4 class="grid justify-center font-Readex-Pro font-bold text-xl pb-4">
         Mentions légales
       </h4>
       <p class="text-sm font-Readex-Pro px-28">
