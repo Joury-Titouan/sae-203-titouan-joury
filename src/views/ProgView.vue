@@ -25,7 +25,7 @@
 
   <div class="grid grid-cols-1 lg:grid-cols-3">
     <div class="grid justify-items-center py-4">
-      <img src="/public/Jäde.webp" alt="Jäde" />
+      <img src="/public/Jade.webp" alt="Jäde" />
       <p class="text-base text-white font-Readex-Pro">Jäde</p>
     </div>
     <div class="grid justify-items-center py-4">

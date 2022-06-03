@@ -2,7 +2,7 @@
   <div>
     <img
       class="w-251 hover:w-72"
-      src="/public/Annie Adaa.webp"
+      src="/public/AnnieAdaa.webp"
       alt="Annie .Adaa"
     />
     <div class="bg-white text-indigo-300 text-4xl h-fit">

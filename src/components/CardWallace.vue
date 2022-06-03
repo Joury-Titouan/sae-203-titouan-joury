@@ -2,7 +2,7 @@
   <div>
     <img
       class="w-251 hover:w-72"
-      src="/public/Wallace Cleaver.webp"
+      src="/public/WallaceCleaver.webp"
       alt="Wallace Cleaver"
     />
     <div class="bg-white text-indigo-300 text-3xl h-fit">

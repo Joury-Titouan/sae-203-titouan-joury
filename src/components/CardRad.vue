@@ -2,7 +2,7 @@
   <div>
     <img
       class="w-251 hover:w-72"
-      src="/public/Rad Cartier.webp"
+      src="/public/RadCartier.webp"
       alt="Rad Cartier"
     />
     <div class="bg-white text-indigo-300 text-4xl h-fit">
