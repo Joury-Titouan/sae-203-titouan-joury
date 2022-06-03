@@ -1,0 +1,8 @@
+<template>
+  <div>
+    <img class="w-251 hover:w-72" src="/public/J9ueve.webp" alt="J9ueve" />
+    <div class="bg-white text-indigo-300 text-4xl h-fit">
+      <p class="font-Roboto font-bold text-center py-2">J9ueve</p>
+    </div>
+  </div>
+</template>
