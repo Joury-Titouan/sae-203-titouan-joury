@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import GuideStyleView from '../views/GuideStyleView.vue'
+import GuideStyleView from '../views/Style-guideView.vue'
 import ProgView from '../views/ProgView.vue'
 import ArtistesView from '../views/ArtistesView.vue'
 import Page404 from '../views/Page404View.vue'
+import Hangar from '../views/HangarView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,8 +15,8 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/GuideView',
-      name: 'GuideStyleView',
+      path: '/Style-guideView',
+      name: 'Style-guideView',
       component: GuideStyleView
     },
     {
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/:pathMatch(.*)*',
       name: 'page404',
       component: Page404
+    },
+    {
+      path: '/HangarView',
+      name: 'HangarView',
+      component: Hangar
     },
   ]
 })

@@ -1,77 +1,40 @@
 <template>
   <div class="grid justify-center py-8">
-    <p class="font-Roboto font-bold text-white text-2xl">17 - 18 JUIN 2022</p>
+    <p class="font-Roboto font-bold text-white text-4xl">La Programmation</p>
   </div>
 
-  <div class="grid grid-cols-3">
-    <div class="bg-indigo-300 grid justify-center py-8">
-      <img class="pb-2" src="/public/Hangar.jpg" alt="Hangar" />
-      <div class="grid grid-cols-2">
-        <h3 class="text-4xl text-white font-bold font-Roboto pt-4">Où ?</h3>
-        <button
-          class="
-            grid
-            items-center
-            px-3
-            py-1
-            border-2
-            rounded
-            text-white
-            border-white
-            hover:text-indigo-300 hover:border-indigo-300
-          "
-        >
-          <p class="grid justify-center font-Readex-Pro text-base">
-            En savoir plus
-          </p>
-        </button>
-      </div>
+  <div class="grid justify-center pb-8 px-4">
+    <img src="/public/prog.svg" alt="Artistes programmés" />
+  </div>
+
+  <div class="grid justify-center pb-8 px-8">
+    <p class="font-Readex-Pro text-white text-2xl">et des surprises...</p>
+  </div>
+
+  <div class="grid justify-center px-8 pb-8 text-center">
+    <p class="font-Readex-Pro text-white text-3xl font-bold">
+      Le 17 et 18 juin à partir de 19h
+    </p>
+  </div>
+
+  <div class="grid justify-center px-8 pb-8 text-center">
+    <p class="font-Readex-Pro text-white text-2xl font-bold">
+      Retrouvez tous les artistes sur l’unique scène du festival
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+    <div class="grid justify-items-center py-4">
+      <img src="/public/Jäde.webp" alt="Jäde" />
+      <p class="text-base text-white font-Readex-Pro">Jäde</p>
     </div>
-    <div class="bg-black grid justify-center py-8">
-      <img class="pb-2" src="/public/Foule.jpg" alt="Foule" />
-      <div class="grid grid-cols-2">
-        <h3 class="text-4xl text-white font-bold font-Roboto pt-4">Quand ?</h3>
-        <button
-          class="
-            grid
-            items-center
-            px-3
-            py-1
-            border-2
-            rounded
-            text-white
-            border-white
-            hover:text-indigo-300 hover:border-indigo-300
-          "
-        >
-          <p class="grid justify-center font-Readex-Pro text-base">
-            En savoir plus
-          </p>
-        </button>
-      </div>
+    <div class="grid justify-items-center py-4">
+      <img src="/public/Beeby.webp" alt="Beeby" />
+      <p class="text-base text-white font-Readex-Pro">Beeby</p>
     </div>
-    <div class="bg-indigo-300 grid justify-center py-8">
-      <img class="pb-2" src="/public/Kekra.jpg" alt="Foule" />
-      <div class="grid grid-cols-2">
-        <h3 class="text-4xl text-white font-bold font-Roboto pt-4">Qui ?</h3>
-        <button
-          class="
-            grid
-            items-center
-            px-3
-            py-2
-            border-2
-            rounded
-            text-white
-            border-white
-            hover:text-indigo-300 hover:border-indigo-300
-          "
-        >
-          <p class="grid justify-center font-Readex-Pro text-base">
-            En savoir plus
-          </p>
-        </button>
-      </div>
+    <div class="grid justify-items-center py-4">
+      <img src="/public/Khali.webp" alt="Khali" />
+      <p class="text-base text-white font-Readex-Pro">Khali</p>
     </div>
   </div>
 </template>

@@ -42,31 +42,33 @@ import HelloWorld from "@/components/HelloWorld.vue";
       <div class="w-full flex-grow hidden lg:flex lg:items-center lg:w-auto">
         <div class="text-lg font-Readex-Pro lg:flex-grow">
           <RouterLink
-            to="/GuideView"
+            to="/Style-guideView"
             class="
               block
               mt-4
               lg:inline-block lg:mt-0
               text-white
+              font-bold
               hover:text-indigo-300
               mr-4
             "
           >
             Guide de style
           </RouterLink>
-          <a
-            href="#responsive-header"
+          <RouterLink
+            to="/HangarView"
             class="
               block
               mt-4
               lg:inline-block lg:mt-0
               text-white
+              font-bold
               hover:text-indigo-300
               mr-4
             "
           >
             Le Hangar
-          </a>
+          </RouterLink>
           <RouterLink
             to="/ArtistesView"
             class="
@@ -74,6 +76,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
               mt-4
               lg:inline-block lg:mt-0
               text-white
+              font-bold
               hover:text-indigo-300
               mr-4
             "
@@ -87,6 +90,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
               mt-4
               lg:inline-block lg:mt-0
               text-white
+              font-bold
               hover:text-indigo-300
             "
           >

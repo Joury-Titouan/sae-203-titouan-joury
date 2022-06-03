@@ -12,46 +12,50 @@ import TheWelcome from "@/components/TheWelcome.vue";
       <img class="pb-2" src="/public/Hangar.jpg" alt="Hangar" />
       <div class="grid grid-cols-2">
         <h3 class="text-4xl text-white font-bold font-Roboto pt-4">Où ?</h3>
-        <button
-          class="
-            grid
-            items-center
-            px-3
-            py-1
-            border-2
-            rounded
-            text-white
-            border-white
-            hover:text-black hover:border-black
-          "
-        >
-          <p class="grid justify-center font-Readex-Pro text-base">
-            En savoir plus
-          </p>
-        </button>
+        <RouterLink to="/HangarView">
+          <button
+            class="
+              grid
+              items-center
+              px-3
+              py-1
+              border-2
+              rounded
+              text-white
+              border-white
+              hover:text-black hover:border-black
+            "
+          >
+            <p class="grid justify-center font-Readex-Pro text-base">
+              En savoir plus
+            </p>
+          </button>
+        </RouterLink>
       </div>
     </div>
     <div class="bg-black grid justify-center py-8">
       <img class="pb-2" src="/public/Foule.jpg" alt="Foule" />
       <div class="grid grid-cols-2">
         <h3 class="text-4xl text-white font-bold font-Roboto pt-4">Quand ?</h3>
-        <button
-          class="
-            grid
-            items-center
-            px-3
-            py-1
-            border-2
-            rounded
-            text-white
-            border-white
-            hover:text-indigo-300 hover:border-indigo-300
-          "
-        >
-          <p class="grid justify-center font-Readex-Pro text-base">
-            En savoir plus
-          </p>
-        </button>
+        <RouterLink to="/ProgView">
+          <button
+            class="
+              grid
+              items-center
+              px-3
+              py-1
+              border-2
+              rounded
+              text-white
+              border-white
+              hover:text-indigo-300 hover:border-indigo-300
+            "
+          >
+            <p class="grid justify-center font-Readex-Pro text-base">
+              En savoir plus
+            </p>
+          </button>
+        </RouterLink>
       </div>
     </div>
     <div class="bg-indigo-300 grid justify-center py-8">
