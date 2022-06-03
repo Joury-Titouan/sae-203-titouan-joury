@@ -2,25 +2,25 @@
   <h2 class="text-4xl text-center text-white font-Roboto font-bold py-8">
     Les Artistes
   </h2>
-  <div class="grid grid-cols-3 justify-items-center py-4">
+  <div class="grid grid-cols-1 lg:grid-cols-3 justify-items-center py-6">
     <CardKekra></CardKekra>
     <CardWallace></CardWallace>
     <CardAnnie></CardAnnie>
   </div>
 
-  <div class="grid grid-cols-3 justify-items-center py-4">
+  <div class="grid grid-cols-1 lg:grid-cols-3 justify-items-center py-4">
     <CardBeeby></CardBeeby>
     <CardKhali></CardKhali>
     <CardFeve></CardFeve>
   </div>
 
-  <div class="grid grid-cols-3 justify-items-center py-4">
+  <div class="grid grid-cols-1 lg:grid-cols-3 justify-items-center py-4">
     <CardLala></CardLala>
     <CardRad></CardRad>
     <CardJ9ueve></CardJ9ueve>
   </div>
 
-  <div class="grid grid-cols-2 justify-items-center py-4">
+  <div class="grid grid-cols-1 lg:grid-cols-2 justify-items-center py-4">
     <CardJade></CardJade>
     <CardMalo></CardMalo>
   </div>
