@@ -143,9 +143,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
         Nous retrouver sur
       </h4>
       <div class="grid grid-cols-3 justify-items-center">
-        <img src="../public/icons8-facebook 1.svg" alt="Facebook" />
-        <img src="../public/icons8-twitter 1.svg" alt="Twitter" />
-        <img src="../public/icons8-instagram 1.svg" alt="Instagram" />
+        <img src="../public/icons8-facebook1.svg" alt="Facebook" />
+        <img src="../public/icons8-twitter1.svg" alt="Twitter" />
+        <img src="../public/icons8-instagram1.svg" alt="Instagram" />
       </div>
     </div>
 
